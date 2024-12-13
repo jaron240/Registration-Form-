@@ -75,5 +75,15 @@ body {
     display: inline; 
   }
   
+  footer {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+  }
+  footer a{
+    color: white;
+    padding: 10px;
+  }
   
   
