@@ -73,6 +73,7 @@ footer a{
     padding: 20px;
     border-radius: 10px;
     
+    
 
 }
 
@@ -87,5 +88,17 @@ footer{
 footer a:hover{
     background-color: #F9F7F7;
     color: #112D4E;
+    
 
+}
+
+
+div[id ="flex-container"]{
+    display: flex;
+    flex-direction: column;
+    
+    a[id = "AGB-Button"]{
+        max-width: 30px;
+
+    }
 }
