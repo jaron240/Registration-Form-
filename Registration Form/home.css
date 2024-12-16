@@ -2,11 +2,15 @@ body{
    margin: 0;
    padding: 0;
    box-sizing: border-box;
+   background-color: #F9F7F7;
+   font-family: Arial, Helvetica, sans-serif;
+   
+   
    
 }
 
 header{
-    background-color:176aee;
+    background-color: #DBE2EF;
     color: white;
     padding: 10px 0;
 }
@@ -19,16 +23,18 @@ nav{
 }
 
 nav a{
-    color:white;
+    color: #F9F7F7;
     text-decoration: none;
-    background-color: #176AEE;
+    background-color: #3F72AF;
     border-radius: 10px;
-    padding: 15px;
+    padding: 10px;
 }
 
 nav a:hover{
-    background-color: gray;
-    color: black;
+    background-color: #112D4E;
+    color: #F9F7F7;
+    
+    
 }
 
 body[id ="terms-and-conditions"]{
@@ -48,5 +54,38 @@ div[id ="AGB-Text"]{
 
 img[id = "bild"]{
     max-width: 60px;
+    border-radius: 10px;
    
+}
+
+.NavBarText{
+    position: sticky;
+    text-align: center;
+    padding-top: 10px ;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+footer a{
+    text-decoration: none;
+    color: #F9F7F7;
+    background-color: #3F72AF;
+    padding: 20px;
+    border-radius: 10px;
+    
+
+}
+
+footer{
+    background-color: #112D4E;
+    position: sticky;
+    display: flex;
+    padding: 10px 10px;
+    justify-content:center;
+}
+
+footer a:hover{
+    background-color: #F9F7F7;
+    color: #112D4E;
+
 }
